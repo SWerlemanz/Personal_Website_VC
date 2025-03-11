@@ -1,0 +1,72 @@
+body{
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position:relative;
+	font-family: fantasy;
+	background-color: floralwhite;
+	font-family: body;
+	color: rosybrown;
+
+}
+ul{list-style:none;
+	margin:none;
+	padding:0;
+	overflow:hidden;
+	position: relative;
+	top:0;
+	background-color: mistyrose;
+
+}
+li{
+	float:left;
+}
+li a{
+	float:left;
+	padding:10px;
+	text-decoration: none;
+	color:rosybrown;
+	background-color: mistyrose;
+	font-family: nav;
+
+}
+li a:hover{
+	background-color: white;
+	color:rosybrown;
+}
+
+
+h1{
+	color:rosybrown;
+	text-align: center;
+	text-decoration: underline overline;
+	font-family: heading;
+}
+a[href^="mailto"]{
+	font-family: sans-serif;
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+}
+a[href^="mailto"]:hover{
+	font-size: 65px;
+	color: pink;
+	background-color: floralwhite;
+}
+
+img.social:hover{
+	opacity: .25;
+}
+@font-face{
+	font-family: nav;
+	src: url(media/urbanist.ttf);
+}
+@font-face{
+	font-family: body;
+	src: url(media/Lora.ttf);
+}
+@font-face{
+	font-family:heading;
+	src: url(media/urbanist.ttf);
+}
